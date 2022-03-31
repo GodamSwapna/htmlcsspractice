@@ -1,0 +1,208 @@
+h1{
+   font-size:xx-large;
+   font-family: Georgia, Times, 'Times New Roman', serif;
+   text-transform:capitalize;
+   font-style: italic;
+}
+
+h2{
+    font-size: x-large;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    line-height: 2;
+    text-align:start;
+}
+
+h1,h2,h3,h4,h5{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100px;
+    text-transform: capitalize;
+}
+
+ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+/* #para{
+    color: aqua;
+} */
+
+.hello{
+    font-size:x-large;
+    color: slateblue;
+
+}
+
+.list{
+    list-style:lower-alpha;
+    /* background-color: hwb(199 82% 7% / 0.384); */
+}
+/* body{
+    background-color: #3181af62;
+} */
+
+li:nth-child(odd){
+    font-style: italic;
+    color: #970c08c0;
+}
+li:nth-child(even){
+    color: rgb(32, 34, 175);
+    font-style: bold;
+}
+
+li:last-child{
+    color: yellow;
+}
+li:first-child{
+    color: greenyellow;
+}
+
+a:link{
+    color: hsl(7, 76%, 53%);
+}
+
+a:visited{
+    color: blue;
+}
+
+
+a:hover{
+    color: red;
+    font-weight: bold;
+    text-decoration: underline dashed black;
+}
+
+a:active{
+    background-color: aqua;
+    font-style: italic;
+}
+
+#para{
+    color: rgb(71, 231, 119);
+}
+
+.para{
+    color:blue;
+}
+
+h1::first-letter{
+    color: green;
+}
+
+h1+h2::first-line{
+    background-color: blue;
+}
+
+h1::after{
+    content: " Hello swapna";
+    background-color: greenyellow;
+
+}
+
+.part1{
+    background-color: aqua;
+    width: 450px;
+    float: left;
+    justify-content: space-between;
+}
+
+.part2{
+    background-color: blanchedalmond;
+    float: left;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+.part3{
+    clear: both;
+}
+
+
+/* ****Flexbox in css*** */
+
+.hello-1{
+    background-color: red;
+}
+.hello-2{
+    background-color:green;
+}
+.hello-3{
+    background-color: yellow;
+}
+.hello-4{
+    background-color: blue;
+}
+.hello-5{
+    background-color: violet;
+}
+.hello-6{
+    background-color:rgb(201, 83, 171);
+}
+.hello-7{
+    background-color: orange;
+}
+.hello-8{
+    background-color:seagreen;
+    height:150px;
+}
+.hello-9{
+    background-color:mediumturquoise;
+}
+.hello-10{
+    background-color:black;
+}
+/* .hello-11{
+    background-color: rgb(194, 215, 216);
+}
+.hello-12{
+    background-color: rgb(87, 37, 64);
+}
+.hello-13{
+    background-color: rgb(212, 233, 25);
+}
+.hello-14{
+    background-color: rgb(123, 151, 230);
+}
+.hello-15{
+    background-color: rgb(41, 47, 105);
+}
+.hello-16{
+    background-color: rgb(20, 238, 136);
+}
+.hello-17{
+    background-color: rgb(203, 223, 23);
+} */
+
+
+/* .flexbox-example div:nth-child(even){
+    background-color: blue;
+}
+.flexbox-example div:nth-child(odd){
+    background-color: chartreuse;
+} */
+.flexbox-example{
+    background-color: antiquewhite;
+    width: fit-content;
+    height: 70px;
+   display: flex;
+   align-items:center;
+   justify-content:space-between;
+}
+
+/* .el{
+    flex-grow: 5;
+    flex-shrink:200;
+    flex-basis: auto;
+} */
+
+.hello-1{
+    align-self: flex-start;
+    flex-grow:5;
+}
+.hello-5{
+    align-self:stretch;
+}
+
+.hello-10{
+     order:2;
+}
